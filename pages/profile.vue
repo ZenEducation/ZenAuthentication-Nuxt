@@ -3,11 +3,9 @@
         <div style="width: 100vw;>
             <h1 style="text-align: center; font-size: 2.5rem;">Profile</h1>
             <p style="text-align: center; font-size: 1.5rem; padding: 10px;">Hi {{ name }}! Welcome to your profile</p>
-            <!-- <div style="display: flex; justify-content: center; align-items: center;"> -->
             <nuxt-link to="/" style="display: flex; justify-content: center;">
                 <button style="width: 360px;">Sign Out</button>
             </nuxt-link>
-            <!-- </div> -->
         </div>
     </div>
 </template>
